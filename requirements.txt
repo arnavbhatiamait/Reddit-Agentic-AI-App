@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+praw
+langchain
+langchain-core
+langchain-groq
+langchain-ollama

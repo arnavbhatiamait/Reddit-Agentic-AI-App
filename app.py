@@ -2,12 +2,6 @@ import streamlit as st
 import os
 from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage
-
-
-
-
-
-
 from dotenv import load_dotenv
 import os
 import praw
@@ -19,7 +13,8 @@ load_dotenv()
 key_1=os.getenv("REDDIT_1")
 key_2=os.getenv("REDDIT_2")
 groq=os.getenv("GROQ_API_KEY")
-llm =ChatGroq(model="llama-3.1-8b-instant",api_key=groq)
+# llm =ChatGroq(model="llama-3.1-8b-instant",api_key=groq)
+llm=ChatGroq(model="llama-3.3-70b-versatile",api_key=groq)
 REDDIT_CLIENT_ID = key_1
 REDDIT_CLIENT_SECRET = key_2
 REDDIT_USER_AGENT = 'api'
