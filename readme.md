@@ -4,7 +4,7 @@ A **Streamlit-powered web application** that extracts a Reddit user's profile, p
 
 It provides a markdown report (~2000 words) analyzing their behavior, interests, personality, subreddit activity, and more.
 
-![Demo](https://youtu.be/XSev2oUbmpc)
+[Demo Video](https://youtu.be/XSev2oUbmpc)
 
 ![Reddit](https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Reddit_Logo_Icon.svg/1024px-Reddit_Logo_Icon.svg.png)
 
